@@ -1,6 +1,6 @@
 /* select a font */
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap");
 
 *,
 *::after,
@@ -12,8 +12,8 @@
 }
 
 :root {
-  --ff-roboto: 'Roboto', sans-serif;
-  --ff-noto-sans: 'Noto Sans', sans-serif;
+  --ff-roboto: "Roboto", sans-serif;
+  --ff-noto-sans: "Noto Sans", sans-serif;
   --transition: all 0.3s linear;
   --spacing: 0.1rem;
   --radius: 0.25rem;
@@ -100,4 +100,86 @@ p {
   .section {
     width: 95vw;
   }
+}
+:root {
+  --clr-pink: #ff595fe4;
+  --clr-sandle: #8779518d;
+  --clr-green: #8ac926;
+  --clr-blue: #1982c4;
+  --clr-voilet: #6a4c93;
+  --clr-white: #ffffffbc;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--clr-sandle);
+  color: var(--clr-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  background-color: var(--clr-pink);
+  border-radius: 10px;
+}
+.first-container {
+  margin: 1rem;
+}
+.select-movies {
+  font-weight: 700;
+}
+.second-container {
+  width: 23rem;
+  background-color: #90c6e86d;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  border-radius: var(--radius);
+}
+.second-container-items {
+  padding: 0.25rem;
+  gap: 1.25rem;
+  display: flex;
+  align-items: center;
+}
+.third-container {
+  margin: 0.5rem;
+}
+.screen {
+  width: 22rem;
+  height: 6rem;
+  background-color: var(--clr-white);
+}
+.fourth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.row{
+  display: flex;
+  gap: 1rem;
+
+}
+.seats {
+  background-color:rgb(69, 62, 62);
+  width: 1.5rem;
+  height: 1.5rem;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.fiveth-container{
+  margin: 2rem;
+}
+.message{
+font-weight: 700;
+}
+.numbers{
+  color: #5c666c;
+}
+.selected{
+  background-color: green;
+}
+.occupied{
+  background-color: rgba(255, 0, 0, 0.842);
 }
