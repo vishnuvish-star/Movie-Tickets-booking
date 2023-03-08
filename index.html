@@ -29,10 +29,10 @@
     <link rel="stylesheet" href="./styling/style.css" />
   </head>
   <body>
-    <main class="main">
+    <main id="main">
       <div class="first-container">
         <label for="select" class="select-movies">Please select movie:</label>
-        <select class="select-movies">
+        <select id="select-movies">
           <option value="200">Akilan</option>
           <option value="110">Pathu Thala</option>
           <option value="90">DADA</option>
@@ -117,8 +117,10 @@
       <div class="fiveth-container">
         <div class="message">
           <p class="message">
-            You Have Selected <span class="numbers">12</span>Tickets, Price
-            $<span class="numbers">210</span>
+            You Have Selected <span id="howMuch">0</span>Tickets, Price $<span
+              id="price"
+              >0</span
+            >
           </p>
         </div>
       </div>

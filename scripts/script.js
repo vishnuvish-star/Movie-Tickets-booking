@@ -1,1 +1,11 @@
-'use strict';
+"use strict";
+const bookingFrame = document.getElementById("main");
+// console.log(bookingFrame);
+const overAllSeats = document.querySelectorAll(".row .seats:not(.occupied)");
+// console.log(overAllSeats);
+const selectMovie = document.getElementById("select-movies");
+// console.log(selectMovie);
+const howMuchTickets = document.getElementById("howMuch");
+// console.log(howMuchTickets);
+const totalPrice = document.getElementById("price");
+// console.log(totalPrice);
