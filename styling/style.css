@@ -125,8 +125,10 @@ body {
 .first-container {
   margin: 1rem;
 }
-.select-movies {
+#select-movies {
+  padding: 0.25rem;
   font-weight: 700;
+  border-radius: 10px;
 }
 .second-container {
   width: 23rem;
@@ -149,6 +151,8 @@ body {
   width: 22rem;
   height: 6rem;
   background-color: var(--clr-white);
+  transform: perspective(1000px) rotateX(-40deg);
+  box-shadow: 0px 0px 12px #000;
 }
 .fourth-container {
   display: flex;
@@ -156,30 +160,30 @@ body {
   align-items: center;
   gap: 0.5rem;
 }
-.row{
+.row {
   display: flex;
   gap: 1rem;
-
 }
 .seats {
-  background-color:rgb(69, 62, 62);
+  background-color: rgb(69, 62, 62);
   width: 1.5rem;
   height: 1.5rem;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
+  cursor: pointer;
 }
-.fiveth-container{
+.fiveth-container {
   margin: 2rem;
 }
-.message{
-font-weight: 700;
+.message {
+  font-weight: 700;
 }
-.numbers{
-  color: #5c666c;
+span {
+  color: #5bb3e6;
 }
-.selected{
+.selected {
   background-color: green;
 }
-.occupied{
+.occupied {
   background-color: rgba(255, 0, 0, 0.842);
 }
